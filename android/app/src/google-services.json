@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "897641827502",
+    "project_id": "modifyme-75acf",
+    "storage_bucket": "modifyme-75acf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897641827502:android:3a2671a7b09dcc247df13f",
+        "android_client_info": {
+          "package_name": "com.example.modify_me"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZBEilMxFVy65iPgzd8BCRdpA2PvfOvxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
