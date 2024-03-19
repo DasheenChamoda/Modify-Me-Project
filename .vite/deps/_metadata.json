@@ -1,0 +1,43 @@
+{
+  "hash": "67dd78e7",
+  "configHash": "fc69d0d6",
+  "lockfileHash": "95693fcc",
+  "browserHash": "3f15b61f",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "32560d35",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "63590048",
+      "needsInterop": true
+    },
+    "bootstrap/dist/js/bootstrap.min.js": {
+      "src": "../../node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "file": "bootstrap_dist_js_bootstrap__min__js.js",
+      "fileHash": "2f01fb25",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "978236ab",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-FBRNPY62": {
+      "file": "chunk-FBRNPY62.js"
+    },
+    "chunk-UM3JHGVO": {
+      "file": "chunk-UM3JHGVO.js"
+    },
+    "chunk-CEQRFMJQ": {
+      "file": "chunk-CEQRFMJQ.js"
+    }
+  }
+}
