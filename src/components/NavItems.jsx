@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 import logo from "../assets/images/logo/logo.png"
 
 
+
 const NavItems = () => {
     const [menuToggle, setMenuToggle] = useState(false);
     const [socialToggle, setSocialToggle] = useState(false);
-    const [headerFixed, setHeaderFixed] = useState(false);
+    const [headerFiexd, setHeaderFixed] = useState(false);
 
     // ading an event listner
     window.addEventListener("scroll", () =>{
@@ -19,16 +20,9 @@ const NavItems = () => {
     )
 
   return (
-    <header className={`header-section-style-4 ${headerFixed ? "header-fixed fadeInUp":""}`}>
-        {/*header top
-        <div className={`header-top-md-non ${socialToggle ? "open":""}`}>
-            <div className='container'>
-                <div className='header-top-area'>
-                    <Link to="/signup" className='lab-btn me-3'><span>Create Accunt</span></Link>
-                    <Link to="/login">Log In</Link>
-                </div>
-            </div>
-        </div>*/}
+    <header className={`header-section style-4 ${
+        headerFiexd ? "header-fixed fadeInUp" : ""
+      }`} style={{ backgroundColor: 'white' }}>
         {/* header image */}
         <div className='header-bottom'>
             <div className='container'>
@@ -48,6 +42,9 @@ const NavItems = () => {
                                 <li><Link to="/shop">Shop</Link></li>
                                 <li><Link to="/about">About</Link></li>
                                 <li><Link to="/contact">Contact Us</Link></li>
+                                {menuToggle && (
+                                        <li><Link to="/cart">Cart</Link></li>
+                                    )}
                             </ul>
                         </div>
 

@@ -6,8 +6,10 @@ function App() {
 
   return (
     <>
-      <NavItems/>
-      <Outlet/>
+      <NavItems />
+      <div className="min-vh-100">
+      <Outlet />
+      </div>
     </>
   )
 }
