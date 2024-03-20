@@ -8,17 +8,34 @@ public class Script_Buttons : MonoBehaviour
 
     public string description;
     public TextMeshProUGUI textBox;
-    public GameObject PARscene;
+    public GameObject PartARscene;
     public GameObject wlcanvas;
     public GameObject blureffect;
   
     void Start()
-    {
-        
-    }
+    {}
  
     void Update()
-    {
-        
+    {}
+    public void openPopupwindow(){
+        blureffect.SetActive(true);
     }
+
+    public void closePopupwindow(){
+        blureffect.SetActive(false);
+    }
+
+    public void openAR(){
+        wlcanvas.SetActive(false);
+        PartARscene.SetActive(true);
+    }
+    public void closeAR(){
+        PartARscene.SetActive(false);
+        wlcanvas.SetActive(true);
+         
+    }
+     public void changePara(){
+        textBox.text = description;
+    }
+
 }

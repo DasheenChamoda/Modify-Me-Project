@@ -3,16 +3,31 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TypePage : MonoBehaviour
-{
-    // Start is called before the first frame update
+{   
+    public GameObject SedanPage;
+    public GameObject HatchbackPage;
+    public GameObject typePage;
+    
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
         
     }
+    public void opensedanpage(){
+        SedanPage.SetActive(true);
+        HatchbackPage.SetActive(false);
+    }
+    public void openhatchpage(){
+        SedanPage.SetActive(false);
+        HatchbackPage.SetActive(true);
+    }
+    public void signout(){
+        typePage.SetActive(false);
+    }
+
 }
