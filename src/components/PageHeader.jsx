@@ -2,7 +2,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 const PageHeader = ({title, curPage}) => {
   return (
     <div className="pageheader-section">
