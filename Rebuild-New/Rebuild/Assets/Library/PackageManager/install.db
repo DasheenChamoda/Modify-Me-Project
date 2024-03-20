@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.ptc.vuforia.engine": {
+      "tarball": {
+        "hash": "94809bee5171",
+        "mtime": 1706680995000,
+        "size": 140831232,
+        "localPath": "C:\\Users\\Dasheen\\Documents\\Rebuild\\Packages\\com.ptc.vuforia.engine-10.21.3.tgz"
+      }
+    }
+  }
+}
