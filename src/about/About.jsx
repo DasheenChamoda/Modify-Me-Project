@@ -1,6 +1,7 @@
  import React from 'react'
+import PageHeader from '../components/PageHeader';
 
- const subTitle = "About Our Brand";
+const subTitle = "About Our Brand";
 const title = "Better Experiance on AR Thechnology";
 const desc = "With our app, users can see the modification parts are sute for their cast or not befor buying it. still there are limited parts but hopfully our developpers will develop more in future. Our selling website is only filled with verified sellers and we are taking the responsibilty of selling parts. IF there are any questions we have a friendly custome care servise availbe for 24h. ";
 
@@ -31,7 +32,7 @@ const aboutList = [
  const About = () => {
    return (
     <div>
-        {/*<PageHeader title={'About Our Brand'} curPage={'About'} />*/}
+        <PageHeader title={'About Our Brand'} curPage={'About'} />
         <div className="about-section style-3 padding-tb section-bg">
             <div className="container">
                 <div className="row justify-content-center row-cols-xl-2 row-cols-1 align-items-center">
