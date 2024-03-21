@@ -29,11 +29,13 @@ public class Script_Buttons : MonoBehaviour
         wlcanvas.SetActive(false);
         PartARscene.SetActive(true);
     }
+
     public void closeAR(){
-        PartARscene.SetActive(false);
         wlcanvas.SetActive(true);
+        PartARscene.SetActive(false);
          
     }
+    
      public void changePara(){
         textBox.text = description;
     }
