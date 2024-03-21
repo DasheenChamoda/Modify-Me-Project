@@ -51,16 +51,8 @@ code {
   float: left;
 }
 
-.logo{
-  color: white;
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-left: -15px;
-  float: left;
-  padding-top: 10px;
-  padding-left: -155px;
 
-}
+
 
 .slidershow{
   width: 700px;
@@ -182,6 +174,7 @@ input[name="r"] {
   -webkit-transition-property:box-shadow, transform;
   transition-property:box-shadow, transform;
 
+
 }
 
 .btn:hover, .btn:focus, .btn:active{
@@ -203,8 +196,18 @@ body{
 }
 
 .bttn{
-  margin-left: 310px;
+  margin-left: 850px;
+  margin-top: -90px;
 }
+
+.logo1{
+  margin-left: -120px;
+  margin-top: 30px;
+  margin-bottom: -85px;
+  
+}
+
+
 
 
 
