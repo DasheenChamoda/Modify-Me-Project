@@ -3,13 +3,20 @@ import img1 from './Images/img1.jpg';
 import img2 from './Images/img2.jpg';
 import img3 from './Images/img3.jpg';
 import img4 from './Images/img4.jpg';
+import logo1 from './Images/mod.jpg';
 
 function Home() {
   return (
     <div className="main">
       <div className="navbar">
         <div className="icon">
-          <h2 className="logo">ModifyMe</h2>
+
+        <div className="logo1">
+        <img src={logo1} alt="My logo" style={{ width: '150px', height: 'auto' }}></img>
+       
+
+            </div>
+          
         </div>
 
         <div className="para">
@@ -51,6 +58,9 @@ function Home() {
           <br/><br/>
           
         </div>
+        <div className="bttn">
+      <a href="login.html" className="btn">LOGIN</a>
+         </div>
       </div>
     </div>
   );
