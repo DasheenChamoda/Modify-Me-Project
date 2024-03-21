@@ -6,7 +6,7 @@ import Pagination from "./Pagination";
 import Search from "./Search";
 
 
-const showResult = "Showing 01 - 12 of 139 Results";
+const showResult = "Showing 01 - 12 of 36 Results";
 
 const Shop = () => {
 
