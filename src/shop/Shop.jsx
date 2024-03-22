@@ -4,6 +4,7 @@ import Data from "../products.json"
 import ProductCards from "./ProductCards";
 import Pagination from "./Pagination";
 import Search from "./Search";
+import ShopCategory from "./ShopCategory";
 
 
 const showResult = "Showing 01 - 12 of 36 Results";
@@ -12,8 +13,11 @@ const Shop = () => {
 
   const [GridList, setGridList] = useState(false);
   const [products, setProducts] = useState(Data);
-  //console.log(products)
 
+  const [selectedCategory, setSelectedCategory] = useState("All");//   category active colors
+
+  // pagination
+  // Get current products to display
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 12; // Number of products per page
 
@@ -23,10 +27,22 @@ const Shop = () => {
     indexOfFirstProduct,
     indexOfLastProduct
   );
+
+  // Function to change the current page
   const paginate = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
 
+   // category based filtering
+   const menuItems = [...new Set(Data.map((Val) => Val.category))];
+ 
+   const filterItem = (curcat) => {
+     const newItem = Data.filter((newVal) => {
+       return newVal.category === curcat;
+     });
+     setSelectedCategory(curcat); 
+     setProducts(newItem);
+   };
 
   return (
     <div>
@@ -63,6 +79,14 @@ const Shop = () => {
             <div className="col-lg-4 col-12">
               <aside>
                 <Search products={products} GridList={GridList} />
+                 {/* <ShopCategory /> */}
+                 <ShopCategory
+                  filterItem={filterItem}
+                  setItem={setProducts}
+                  menuItems={menuItems}
+                  setProducts={setProducts}
+                  selectedCategory={selectedCategory }
+                />
               </aside>
             </div>
 
