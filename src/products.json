@@ -1,7 +1,7 @@
 [
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "category": "Spoiler",
+        "category": "Spoilers",
         "name": "Toyota Supra Carbon Fiber Spoiler",
         "seller": "Toyota",
         "price": 420,
@@ -17,7 +17,7 @@
 
     {
         "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-        "category": "Spoiler",
+        "category": "Spoilers",
         "name": "Rear Spoiler Plactic",
         "seller": "Nissan",
         "price": 196,
@@ -30,7 +30,7 @@
     },
     {
         "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-        "category": "Spoiler",
+        "category": "Spoilers",
         "name": "Bmw Rear Spoiler",
         "seller": "BMW",
         "price": 60.99,
@@ -43,7 +43,7 @@
     },
     {
         "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-        "category": "Spoiler",
+        "category": "Spoilers",
         "name": "Hatchback Spoiler",
         "seller": "Honda",
         "price": 229,
@@ -56,7 +56,7 @@
     },
     {
         "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-        "category": "Spoiler",
+        "category": "Spoilers",
         "name": "Wolksvagon Rear Spoiler Carbonfiber",
         "seller": "Wolksvagon",
         "price": 287,
@@ -69,7 +69,7 @@
     },
     {
         "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-        "category": "Spoiler",
+        "category": "Spoilers",
         "name": "Sedan Spoiler",
         "seller": "BMW",
         "price": 138,
@@ -82,7 +82,7 @@
     },
     {
         "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
-        "category": "Spoiler",
+        "category": "Spoilers",
         "name": "Nissan GTR Spoiler",
         "seller": "Nissan",
         "price": 226,
@@ -95,7 +95,7 @@
     },
     {
         "id": "c9d1f410-d28f-49d9-9b01-d759b5acbeea",
-        "category": "Spoiler",
+        "category": "Spoilers",
         "name": "Nissan GTR Carbonfiber Rear wing",
         "seller": "Nissan",
         "price": 319,
@@ -108,7 +108,7 @@
     },
     {
         "id": "1564a06b-692f-4f2e-8413-9c8a1cc2da77",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Nissan Alloy Wheel",
         "seller": "Nissan",
         "price": 260,
@@ -121,7 +121,7 @@
     },
     {
         "id": "ac44095f-230e-4502-8816-dea3eaae8320",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Silver alloy wheel",
         "seller": "Toyota",
         "price": 437,
@@ -134,7 +134,7 @@
     },
     {
         "id": "d0803f97-966f-4296-ad31-a7f70fc86fab",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Rouder Alloy Wheel",
         "seller": "Nissan",
         "price": 146,
@@ -147,7 +147,7 @@
     },
     {
         "id": "8a5b4a9c-76ea-4fbb-9c70-9548de4eab01",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Alloy Wheel for cars",
         "seller": "Toyota",
         "price": 109,
@@ -160,7 +160,7 @@
     },
     {
         "id": "b357e19b-4dd9-4fc7-b5c0-9ed5255464ba",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Sporty Alloy Wheel",
         "seller": "Nissan",
         "price": 63,
@@ -173,7 +173,7 @@
     },
     {
         "id": "e4220958-06d2-4d50-96fa-0163a563f43d",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Black Alloy Wheel for cars",
         "seller": "Honda",
         "price": 148,
@@ -186,7 +186,7 @@
     },
     {
         "id": "ae69f0e4-559c-4b24-8032-80b63f9b5073",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Alloy wheel for family cars",
         "seller": "Honda",
         "price": 122,
@@ -199,7 +199,7 @@
     },
     {
         "id": "dbf7ab3f-b383-4d95-8ab7-f55fcf6fa5f2",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Black Sporty alloy wheel for Nissan Vehicles",
         "seller": "Nissan",
         "price": 115,
@@ -212,7 +212,7 @@
     },
     {
         "id": "ed6a7ac3-7e67-4e3f-8461-bceb5178be42",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Golden ICO Alloy Wheel",
         "seller": "ICO",
         "price": 108,
@@ -225,7 +225,7 @@
     },
     {
         "id": "fd52819a-cb78-4510-ad2f-c5bdd888ae78",
-        "category": "Alloy Wheel",
+        "category": "Alloy Wheels",
         "name": "Track Alloy for cars",
         "seller": "Honda",
         "price": 189,
@@ -238,7 +238,7 @@
     },
     {
         "id": "c667d3ff-41eb-4cf7-a433-819d959ea768",
-        "category": "Grill",
+        "category": "Grills",
         "name": "Cl03 Grill",
         "seller": "Benz",
         "price": 58,
@@ -251,7 +251,7 @@
     },
     {
         "id": "e1dbc7fe-be17-4e0f-9e2d-6ad5dbc102fc",
-        "category": "Grill",
+        "category": "Grills",
         "name": "CL250 Grill",
         "seller": "Benz",
         "price": 185,
@@ -264,7 +264,7 @@
     },
     {
         "id": "0298e695-1f9b-49b1-9961-8a8460f95b1c",
-        "category": "Grill",
+        "category": "Grills",
         "name": "W204 Spoty Grill",
         "seller": "Benz",
         "price": 132,
@@ -277,7 +277,7 @@
     },
     {
         "id": "3cfe9adc-c27f-4be4-a859-a5c98ce88a27",
-        "category": "Grill",
+        "category": "Grills",
         "name": "Grill for ML550",
         "seller": "Benz",
         "price": 111,
@@ -290,7 +290,7 @@
     },
     {
         "id": "6602468a-a3a8-4c2c-9d3a-fd54e2c5daf7",
-        "category": "Grill",
+        "category": "Grills",
         "name": "CL250 Sporty Grill",
         "seller": "Benz",
         "price": 104,
@@ -303,7 +303,7 @@
     },
     {
         "id": "5db3ee2f-2eb7-4764-942d-894f72198e86",
-        "category": "Grill",
+        "category": "Grills",
         "name": "CL500 2021 Grill",
         "seller": "Benz",
         "price": 151,
@@ -316,7 +316,7 @@
     },
     {
         "id": "9b169efb-0966-40f3-b9c2-79b16cb96388",
-        "category": "Logo Badge",
+        "category": "Logo Badges",
         "name": "Toyota Logo",
         "seller": "Toyota",
         "price": 151,
@@ -329,7 +329,7 @@
     },
     {
         "id": "fb1f9913-d903-498c-9e4a-16d363aa2eba",
-        "category": "Logo Badge",
+        "category": "Logo Badges",
         "name": "Toyota Logo",
         "seller": "Toyota",
         "price": 199,
@@ -342,7 +342,7 @@
     },
     {
         "id": "fe48e340-4dc9-44b3-911b-9308b4f530b3",
-        "category": "Logo Badge",
+        "category": "Logo Badges",
         "name": "Toyota Logo",
         "seller": "Toyota",
         "price": 110,
@@ -355,7 +355,7 @@
     },
     {
         "id": "2e06fa90-2961-4867-8322-6fdcca2f086a",
-        "category": "Logo Badge",
+        "category": "Logo Badges",
         "name": "Toyota Logo",
         "seller": "Toyota",
         "price": 155,
@@ -368,7 +368,7 @@
     },
     {
         "id": "008c06dd-04e4-4923-b840-927bd6b4c2de",
-        "category": "Logo Badge",
+        "category": "Logo Badges",
         "name": "Nissan Logo",
         "seller": "Nissan",
         "price": 118,
@@ -381,7 +381,7 @@
     },
     {
         "id": "b4d83415-d20a-4bba-8629-22b2780b6e93",
-        "category": "Nissan Logo",
+        "category": "Logo Badges",
         "name": "Nissan Logo",
         "seller": "Nissan",
         "price": 169,
@@ -394,7 +394,7 @@
     },
     {
         "id": "1d54fd83-83df-42f8-ae2b-f5ef9d4987ea",
-        "category": "Logo Badge",
+        "category": "Logo Badges",
         "name": "Honda Logo",
         "seller": "Honda",
         "price": 14,
@@ -407,7 +407,7 @@
     },
     {
         "id": "1ce97e0e-3611-4406-8788-7b413640f59e",
-        "category": "Logo Badge",
+        "category": "Logo Badges",
         "name": "Benz Badge",
         "seller": "Benz",
         "price": 16,
@@ -420,7 +420,7 @@
     },
     {
         "id": "f088beb8-d664-4166-99f8-6995c2f08465",
-        "category": "Eddition Badge",
+        "category": "Eddition Badges",
         "name": "Toyota Supra Eddition Badge",
         "seller": "Toyota",
         "price": 20,
@@ -433,7 +433,7 @@
     },
     {
         "id": "26dd7da8-c854-4bab-aaf5-32cc964da2ec",
-        "category": "Eddition Badge",
+        "category": "Eddition Badges",
         "name": "V6 badge",
         "seller": "Toyota",
         "price": 16,
@@ -446,7 +446,7 @@
     },
     {
         "id": "a2615943-7eeb-4d6a-ab1b-78fb51ce39da",
-        "category": "Eddition Badge",
+        "category": "Eddition Badges",
         "name": "GTR Eddition Badge",
         "seller": "Nissan",
         "price": 34,
@@ -459,7 +459,7 @@
     },
     {
         "id": "27cf3efa-7352-4889-85c4-44a4de2aa93a",
-        "category": "Eddition Badge",
+        "category": "Eddition Badges",
         "name": "CL250 Eddition Badge",
         "seller": "Benz",
         "price": 23,
