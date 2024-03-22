@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//import "../../components/modal.css";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -218,7 +217,7 @@ const CheckoutPage = () => {
               </div>
               {/* payment desclaimer */}
               <p className="mt-3 px-4 p-Disclaimer">
-              <em>Payment Disclaimer:</em> In no event shall payment or partial payment by Owner for any material or service
+              <em>Payment Disclaimer:</em> No liability for lost or stolen payments. Safeguard your payment information.
               </p>
             </div>
           </div>
