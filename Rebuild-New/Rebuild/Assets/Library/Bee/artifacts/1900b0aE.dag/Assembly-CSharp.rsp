@@ -363,6 +363,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/animations.cs"
+"Assets/Scripts/camera_deactivator.cs"
 "Assets/Scripts/LogIn.cs"
 "Assets/Scripts/Script_Buttons.cs"
 "Assets/Scripts/Sedan_Script.cs"
