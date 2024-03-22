@@ -151,7 +151,7 @@ const Cart = () => {
                   {/* shipping  */}
                   <div className="col-md-6 col-12">
                     <div className="calculate-shiping">
-                      <h3>Calculate Shipping</h3>
+                      <h3>Shipping Details</h3>
                       <div className="outline-select">
                         <select>
                           <option value="volvo">Canada (CA)</option>
@@ -168,6 +168,10 @@ const Cart = () => {
                           <option value="saab">Norway</option>
                           <option value="saab">Ukraine</option>
                           <option value="saab">South Africa</option>
+                          <option value="saab">Thailand</option>
+                          <option value="saab">Japan</option>
+                          <option value="saab">South Korea</option>
+                          <option value="saab">Zimbabwe</option>
                         </select>
                         <span className="select-icon">
                           <i className="icofont-rounded-down"></i>
@@ -189,6 +193,10 @@ const Cart = () => {
                           <option value="saab">Oslo</option>
                           <option value="saab">Kyiv</option>
                           <option value="saab">Cape Town</option>
+                          <option value="saab">Bangkok</option>
+                          <option value="saab">Tokyo</option>
+                          <option value="saab">Seoul</option>
+                          <option value="saab">Harare</option>
                           
                         </select>
                         <span className="select-icon">
