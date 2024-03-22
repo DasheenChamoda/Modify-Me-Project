@@ -221,7 +221,9 @@ const Cart = () => {
                         placeholder="Postcode/ZIP"
                         className="cart-page-input-text"
                       />
-                      <button type="submit">Update Total</button>
+                      <a href="/Cart">
+                        <button type="submit">Update Total</button>
+                      </a>
                     </div>
                   </div>
 
