@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+//import "../../components/modal.css";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -140,7 +141,7 @@ const CheckoutPage = () => {
                         </div>
                         <div className="px-5 pay">
                           <button className="btn btn-success btn-block" onClick={handleOrderConfirm}>
-                            Add card
+                            Place Order
                           </button>
                         </div>
                       </div>
@@ -207,7 +208,7 @@ const CheckoutPage = () => {
                         </div>
                         <div className="pay px-5">
                           <button className="btn btn-primary btn-block" onClick={handleOrderConfirm}>
-                            Add paypal
+                            Place Order
                           </button>
                         </div>
                       </div>
