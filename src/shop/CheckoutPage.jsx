@@ -141,7 +141,7 @@ const CheckoutPage = () => {
                         </div>
                         <div className="px-5 pay">
                           <button className="btn btn-success btn-block" onClick={handleOrderConfirm}>
-                            Place Order
+                          Click to Purchase
                           </button>
                         </div>
                       </div>
@@ -208,7 +208,7 @@ const CheckoutPage = () => {
                         </div>
                         <div className="pay px-5">
                           <button className="btn btn-primary btn-block" onClick={handleOrderConfirm}>
-                            Place Order
+                          Click to Purchase
                           </button>
                         </div>
                       </div>
