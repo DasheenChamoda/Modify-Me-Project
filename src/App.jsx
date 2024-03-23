@@ -19,7 +19,6 @@ function App() {
       </div>
       {/* Render Footer only if it's not the login or sign-up page */}
       {!isLoginPage && !isSignUpPage && <Footer />}
-      {/* making a change to check */}
     </>
   );
 }
