@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const btnText = "Sign up for Free";
-const title = "Haven't You Tried Oue AR Bsed Modification App?";
+const title = "Haven't You Tried Our AR Based Modification App?";
 const desc = "Still this available only on Android, try it now. Check how the modification part look on your vehicle before buy it";
 
 const AppSection = () => {
