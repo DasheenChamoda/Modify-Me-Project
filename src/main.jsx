@@ -21,8 +21,6 @@ import Home from './Home/Home.jsx';
 import About from './about/About.jsx';
 import Shop from './shop/Shop.jsx';
 
-
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -31,20 +29,26 @@ const router = createBrowserRouter([
       {
         path:"/",
         element:<Home/>
-        
-      },
-      {
-        path: "/shop",
-        element: <Shop/>
       },
       {
         path: "/about",
         element:<About/>
+      },{
+        path: "/shop",
+        element: <Shop/>  
       },
+      {
+        path: "shop/:id",
+        element: <SingleProduct/>
+      },
+
     ]
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<RouterProvider router={router} />
+  <AuthProvider>
+     <RouterProvider router={router} />
+  </AuthProvider>
+  
 )
