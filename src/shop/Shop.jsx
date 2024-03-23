@@ -1,20 +1,21 @@
-import React, {useState} from "react";
-import PageHeader from '../components/PageHeader'
-import Data from "../products.json"
-import ProductCards from "./ProductCards";
-import Pagination from "./Pagination";
+import React, { useEffect } from "react";
+import PageHeader from "../../components/PageHeader";
+import { Component, Fragment, useState } from "react";
 import Search from "./Search";
+import Pagination from "./Pagination";
 import ShopCategory from "./ShopCategory";
-
-
-const showResult = "Showing 01 - 12 of 36 Results";
+import PopularPost from "./PopularPost";
+import Tags from "./Tags";
+import ProductCards from "./ProductCards";
+const showResult = "Showing 01 - 12 of 139 Results";
+import Data from "/src/products.json"
 
 const Shop = () => {
-
-  const [GridList, setGridList] = useState(false);
+  const [GridList, setGridList] = useState(true);
   const [products, setProducts] = useState(Data);
 
-  const [selectedCategory, setSelectedCategory] = useState("All");//   category active colors
+  //   category active colors
+const [selectedCategory, setSelectedCategory] = useState("All");
 
   // pagination
   // Get current products to display
@@ -33,40 +34,49 @@ const Shop = () => {
     setCurrentPage(pageNumber);
   };
 
-   // category based filtering
-   const menuItems = [...new Set(Data.map((Val) => Val.category))];
- 
-   const filterItem = (curcat) => {
-     const newItem = Data.filter((newVal) => {
-       return newVal.category === curcat;
-     });
-     setSelectedCategory(curcat); 
-     setProducts(newItem);
-   };
+  // category based filtering
+  const menuItems = [...new Set(Data.map((Val) => Val.category))];
+
+  const filterItem = (curcat) => {
+    const newItem = Data.filter((newVal) => {
+      return newVal.category === curcat;
+    });
+    setSelectedCategory(curcat); 
+    setProducts(newItem);
+    // console.log(selectedCategory)
+  };
 
   return (
     <div>
-    <PageHeader title={"Our Shop Pages"} curPage={"Shop"} />
+      <PageHeader title={"Our Shop Pages"} curPage={"Shop"} />
+
+      {/* shop page */}
       <div className="shop-page padding-tb">
         <div className="container">
-           <div className="row justify-content-center">
-           <div className="col-lg-8 col-12">
+          <div className="row justify-content-center">
+            <div className="col-lg-8 col-12">
               <article>
                 <div className="shop-title d-flex flex-wrap justify-content-between">
                   <p>{showResult}</p>
-                  <div className={`product-view-mode ${GridList ? "gridActive" : "listActive"}`}>
-                  <a className="grid" onClick={() => setGridList(!GridList)}>
-                        <i className="icofont-ghost"></i>
-                  </a>
-                  <a className="list" onClick={() => setGridList(!GridList)}>
+                  <div
+                    className={`product-view-mode ${
+                      GridList ? "gridActive" : "listActive"
+                    }`}
+                  >
+                    <a className="grid" onClick={() => setGridList(!GridList)}>
+                      <i className="icofont-ghost"></i>
+                    </a>
+                    <a className="list" onClick={() => setGridList(!GridList)}>
                       <i className="icofont-listine-dots"></i>
-                  </a>    
-                  </div>
-                  <div>
-                    <ProductCards products={currentProducts} GridList={GridList} />
+                    </a>
                   </div>
                 </div>
-
+                <div>
+                  <ProductCards
+                    products={currentProducts}
+                    GridList={GridList}
+                  />
+                </div>
                 <Pagination
                   productsPerPage={productsPerPage}
                   totalProducts={products.length}
@@ -75,26 +85,26 @@ const Shop = () => {
                 />
               </article>
             </div>
-
             <div className="col-lg-4 col-12">
               <aside>
                 <Search products={products} GridList={GridList} />
-                 {/* <ShopCategory /> */}
-                 <ShopCategory
+                {/* <ShopCategory /> */}
+                <ShopCategory
                   filterItem={filterItem}
                   setItem={setProducts}
                   menuItems={menuItems}
                   setProducts={setProducts}
                   selectedCategory={selectedCategory }
                 />
+                <PopularPost/>
+                <Tags />
               </aside>
             </div>
-
-           </div>
+          </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Shop
+export default Shop;
