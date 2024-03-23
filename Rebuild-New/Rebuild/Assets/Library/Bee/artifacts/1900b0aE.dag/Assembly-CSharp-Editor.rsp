@@ -350,6 +350,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/CW.Common.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/LeanCommon.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/LeanTouch.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/NativeGallery.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/NativeGallery.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
