@@ -8885,8 +8885,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1012}
-  m_SizeDelta: {x: 1080, y: 256}
+  m_AnchoredPosition: {x: 0, y: -987}
+  m_SizeDelta: {x: 1080, y: 356.4176}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &307575704
 MonoBehaviour:
@@ -21765,7 +21765,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -413.3814, y: 0.000026703}
+  m_AnchoredPosition: {x: -417, y: -70}
   m_SizeDelta: {x: 157.6768, y: 182.6788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &759361965
@@ -23054,7 +23054,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1672869700}
         m_TargetAssemblyTypeName: TypePage, Assembly-CSharp
-        m_MethodName: opensedanpage
+        m_MethodName: OpenShopper
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29975,8 +29975,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -952.48914}
-  m_SizeDelta: {x: 1080, y: 375.0215}
+  m_AnchoredPosition: {x: 0, y: -972.2624}
+  m_SizeDelta: {x: 1080, y: 414.568}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1035900063
 MonoBehaviour:
@@ -37584,8 +37584,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0024414, y: 999.19995}
-  m_SizeDelta: {x: 1080, y: 281.6002}
+  m_AnchoredPosition: {x: 0.0024414, y: 1042.2999}
+  m_SizeDelta: {x: 1080, y: 367.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273104650
 MonoBehaviour:
@@ -37642,7 +37642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1280941101
 RectTransform:
   m_ObjectHideFlags: 0
@@ -46566,7 +46566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Click Here Visit ModifyMe Store To Find Your Desired Modification Parts '
+  m_text: Click Here To Visit ModifyMe Store To Find Your Desired Modification Parts
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -49396,7 +49396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1672869697
 RectTransform:
   m_ObjectHideFlags: 0
@@ -49476,6 +49476,8 @@ MonoBehaviour:
   SedanPage: {fileID: 103040510}
   HatchbackPage: {fileID: 1280941100}
   typePage: {fileID: 1672869696}
+  shopper: {fileID: 0}
+  modifymeurl: https://www.iit.ac.lk/
 --- !u!1 &1673728233
 GameObject:
   m_ObjectHideFlags: 0
