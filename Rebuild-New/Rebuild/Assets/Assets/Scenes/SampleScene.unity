@@ -3188,6 +3188,7 @@ GameObject:
   - component: {fileID: 103040511}
   - component: {fileID: 103040513}
   - component: {fileID: 103040512}
+  - component: {fileID: 103040514}
   m_Layer: 5
   m_Name: Sedan Page
   m_TagString: Untagged
@@ -3267,6 +3268,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103040510}
   m_CullTransparentMesh: 1
+--- !u!114 &103040514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103040510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f6d5a36c22db248849ad1d6243039b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenshotDirectory: appscreenshots/
 --- !u!1 &104712123
 GameObject:
   m_ObjectHideFlags: 0
@@ -37636,6 +37650,7 @@ GameObject:
   - component: {fileID: 1280941101}
   - component: {fileID: 1280941103}
   - component: {fileID: 1280941102}
+  - component: {fileID: 1280941104}
   m_Layer: 5
   m_Name: Hatchback Page
   m_TagString: Untagged
@@ -37715,6 +37730,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280941100}
   m_CullTransparentMesh: 1
+--- !u!114 &1280941104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280941100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f6d5a36c22db248849ad1d6243039b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screenshotDirectory: appscreenshots/
 --- !u!1 &1287472436
 GameObject:
   m_ObjectHideFlags: 0

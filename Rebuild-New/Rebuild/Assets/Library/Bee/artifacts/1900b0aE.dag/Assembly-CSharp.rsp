@@ -366,6 +366,7 @@
 "Assets/Scripts/camera_deactivator.cs"
 "Assets/Scripts/LogIn.cs"
 "Assets/Scripts/navi_scipt.cs"
+"Assets/Scripts/Screenshot_Script.cs"
 "Assets/Scripts/Script_Buttons.cs"
 "Assets/Scripts/SignUp.cs"
 "Assets/Scripts/TypePage.cs"
