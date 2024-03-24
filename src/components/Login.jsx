@@ -72,7 +72,7 @@ const Login = () => {
       })
       .catch((error) => {
         const errorMessage = error.message;
-        setErrorMessage("Please provide valid email & password!");
+        setErrorMessage("Login details are incorrect please try again!");
       });
   };
 
