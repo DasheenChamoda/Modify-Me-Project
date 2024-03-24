@@ -1,5 +1,9 @@
 
 
+name: UnityTesting
+
+on: [push, pull_request]
+
 
 - uses: game-ci/unity-test-runner@v4
   env:
