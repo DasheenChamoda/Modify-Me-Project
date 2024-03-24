@@ -33,7 +33,7 @@ jobs:
         uses: game-ci/unity-test-runner@v4
         with:
           packageMode: true
-          unityVersion: [2022.3.20f1]
+          unityVersion: "2022.3.20f1"
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
   unity_test_runner_3:
