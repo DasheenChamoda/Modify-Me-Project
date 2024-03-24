@@ -1,0 +1,47 @@
+
+
+
+- uses: game-ci/unity-test-runner@v4
+  env:
+    UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+  with:
+    projectPath: Rebuild-New\Rebuild
+    githubToken: ${{ secrets.GITHUB_TOKEN }}
+
+- uses: game-ci/unity-test-runner@v4
+  with:
+    packageMode: true
+
+- uses: game-ci/unity-test-runner@v4
+  with:
+    githubToken: ${{ secrets.GITHUB_TOKEN }}
+
+- uses: actions/upload-artifact@v3
+  if: always()
+  with:
+    name: Test results
+    path: artifacts
+
+- uses: game-ci/unity-test-runner@v4
+  id: myTestStep
+
+- uses: actions/upload-artifact@v3
+  if: always()
+  with:
+    name: Test results
+    path: ${{ steps.myTestStep.outputs.artifactsPath }}
+
+- uses: actions/upload-artifact@v3
+  if: always()
+  with:
+    name: Coverage results
+    path: ${{ steps.myTestStep.outputs.coveragePath }}
+
+- uses: actions/cache@v3
+  with:
+    path: path/to/your/project/Library
+    key: Library-MyProjectName-TargetPlatform
+    restore-keys: |
+      Library-MyProjectName-
+      Library-    
+  
