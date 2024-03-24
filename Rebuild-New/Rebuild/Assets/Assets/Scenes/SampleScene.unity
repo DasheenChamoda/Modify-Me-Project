@@ -1240,172 +1240,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 34653915}
   m_CullTransparentMesh: 1
---- !u!1 &38057672
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 38057673}
-  - component: {fileID: 38057677}
-  - component: {fileID: 38057676}
-  - component: {fileID: 38057675}
-  - component: {fileID: 38057674}
-  m_Layer: 5
-  m_Name: HSpoiler4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &38057673
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38057672}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 784875043}
-  m_Father: {fileID: 244780796}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 524.02, y: 4.0619}
-  m_SizeDelta: {x: 534.357, y: 427.18}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &38057674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38057672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 766acdef1c7aff945b6d992e9faba9bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  description: ' CLASSICAL/RETRO STYLE SPOILER: A NOSTALGIC TOUCH OF STYLE AND FUNCTIONALITY,
-    EMBODYING THE TIMELESS ELEGANCE OF AN ERA GONE BY. ITS VINTAGE DESIGN EVOKES
-    MEMORIES OF SPEED AND EXHILARATION, ADDING A TOUCH OF CLASS TO ANY VEHICLE WHILE
-    ENHANCING AERODYNAMICS AND PERFORMANCE.'
-  textBox: {fileID: 1417588699}
-  PartARscene: {fileID: 163902655}
-  wlcanvas: {fileID: 38433954}
-  blureffect: {fileID: 574629769}
---- !u!114 &38057675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38057672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 38057676}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 38057674}
-        m_TargetAssemblyTypeName: Script_Buttons, Assembly-CSharp
-        m_MethodName: openPopupwindow
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 38057674}
-        m_TargetAssemblyTypeName: Script_Buttons, Assembly-CSharp
-        m_MethodName: changePara
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &38057676
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38057672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7e596aecc272ce943ba3bc3438a61087, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &38057677
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38057672}
-  m_CullTransparentMesh: 1
 --- !u!1 &38433954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,7 +1258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &38433955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7315,7 +7149,6 @@ RectTransform:
   - {fileID: 1465874350}
   - {fileID: 1051098394}
   - {fileID: 1615272650}
-  - {fileID: 38057673}
   m_Father: {fileID: 1638836057}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -8661,15 +8494,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3e2918294784f4c4ab5b9739ba17e0be, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1000
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3e2918294784f4c4ab5b9739ba17e0be, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1000
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3e2918294784f4c4ab5b9739ba17e0be, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1000
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3e2918294784f4c4ab5b9739ba17e0be, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8681,7 +8514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3e2918294784f4c4ab5b9739ba17e0be, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -279
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3e2918294784f4c4ab5b9739ba17e0be, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8974,8 +8807,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -987}
-  m_SizeDelta: {x: 1080, y: 356.4176}
+  m_AnchoredPosition: {x: -15.942505, y: -943.57}
+  m_SizeDelta: {x: 1111.885, y: 392.8576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &307575704
 MonoBehaviour:
@@ -13748,7 +13581,7 @@ MonoBehaviour:
     VEHICLE, THEY COMMAND ATTENTION WITH THEIR STRIKING COLOR AND ENHANCE PERFORMANCE
     WITH THEIR DISTINCTIVE STYLE.'
   textBox: {fileID: 121761594}
-  PartARscene: {fileID: 1623833161}
+  PartARscene: {fileID: 792400166}
   wlcanvas: {fileID: 38433954}
   blureffect: {fileID: 1468378314}
 --- !u!114 &443990879
@@ -15108,7 +14941,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 38057674}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Script_Buttons, Assembly-CSharp
         m_MethodName: openAR
         m_Mode: 1
@@ -17453,7 +17286,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 38057674}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Script_Buttons, Assembly-CSharp
         m_MethodName: closePopupwindow
         m_Mode: 1
@@ -21683,7 +21516,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &749617084
 RectTransform:
   m_ObjectHideFlags: 0
@@ -22536,7 +22369,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1051098395}
+      - m_Target: {fileID: 1465874351}
         m_TargetAssemblyTypeName: Script_Buttons, Assembly-CSharp
         m_MethodName: closeAR
         m_Mode: 1
@@ -23371,140 +23204,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781265747}
-  m_CullTransparentMesh: 1
---- !u!1 &784875042
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 784875043}
-  - component: {fileID: 784875045}
-  - component: {fileID: 784875044}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &784875043
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784875042}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 38057673}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &784875044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784875042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: ' '
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &784875045
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784875042}
   m_CullTransparentMesh: 1
 --- !u!1 &792400166
 GameObject:
@@ -26435,7 +26134,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 844373491}
+      - m_Target: {fileID: 2125774613}
         m_TargetAssemblyTypeName: Script_Buttons, Assembly-CSharp
         m_MethodName: closeAR
         m_Mode: 1
@@ -26885,7 +26584,7 @@ MonoBehaviour:
   description: 'THE PORSCHE LOGO: AN ICON OF PRESTIGE AND PERFORMANCE, INVITING YOU
     TO EMBRACE THE THRILL OF THE OPEN ROAD.'
   textBox: {fileID: 255695039}
-  PartARscene: {fileID: 1379136132}
+  PartARscene: {fileID: 867787003}
   wlcanvas: {fileID: 38433954}
   blureffect: {fileID: 1626715661}
 --- !u!114 &912309577
@@ -31551,9 +31250,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766acdef1c7aff945b6d992e9faba9bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: Hatchback spoiler
+  description: ' THIS SPOILER SUITS HATCHBACKS, BOOSTING THEIR LOOKS AND AERODYNAMICS.
+    SPORTY YET FUNCTIONAL, IT ENHANCES STABILITY AND STYLE AT SPEED, COMMANDING ROAD
+    PRESENCE WHILE LIFTING BOTH FORM AND FUNCTION.'
   textBox: {fileID: 1230549373}
-  PartARscene: {fileID: 1379136132}
+  PartARscene: {fileID: 47392766}
   wlcanvas: {fileID: 38433954}
   blureffect: {fileID: 1159292540}
 --- !u!114 &1051098396
@@ -39872,7 +39573,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465874351}
+      - m_Target: {fileID: 1051098395}
         m_TargetAssemblyTypeName: Script_Buttons, Assembly-CSharp
         m_MethodName: closeAR
         m_Mode: 1
@@ -42409,15 +42110,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 09e7210f12fad35408237f26623bab63, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1000
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09e7210f12fad35408237f26623bab63, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1000
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09e7210f12fad35408237f26623bab63, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1000
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 09e7210f12fad35408237f26623bab63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42465,10 +42166,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 09e7210f12fad35408237f26623bab63, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -8700617353114198275, guid: 09e7210f12fad35408237f26623bab63, type: 3}
+    - {fileID: 65702495048144492, guid: 09e7210f12fad35408237f26623bab63, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 09e7210f12fad35408237f26623bab63, type: 3}
@@ -44231,9 +43934,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766acdef1c7aff945b6d992e9faba9bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: 
+  description: ' THIS CLASSIC JAPANESE SPOILER, IDEAL FOR CARS LIKE THE SUPRA, HONORS
+    SIMPLICITY AND PERFORMANCE. CLEAN LINES AND FUNCTIONAL DESIGN MAKE A BOLD STATEMENT,
+    PAYING HOMAGE TO JAPAN''S RACING HERITAGE.'
   textBox: {fileID: 2091709416}
-  PartARscene: {fileID: 47392766}
+  PartARscene: {fileID: 1379136132}
   wlcanvas: {fileID: 38433954}
   blureffect: {fileID: 197735199}
 --- !u!114 &1465874352
@@ -45514,7 +45219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1514086257
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48537,8 +48242,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 766acdef1c7aff945b6d992e9faba9bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  description: THIS SPOILER IS INSPIRED BY NISSAN GTR WHICH IS A LEGENDARY SPORTS
-    CAR
+  description: 'THIS SPOILER, INSPIRED BY THE LEGENDARY NISSAN GTR, CAPTURES THE
+    ESSENCE OF PERFORMANCE AND PRECISION. WITH SLEEK DESIGN AND AERODYNAMIC EFFICIENCY,
+    IT PAYS HOMAGE TO THE GTR''S RACING HERITAGE, MAKING A BOLD STATEMENT ON THE
+    ROAD.      '
   textBox: {fileID: 994050249}
   PartARscene: {fileID: 475141000}
   wlcanvas: {fileID: 38433954}
@@ -53099,7 +52806,7 @@ MonoBehaviour:
     THE LOOK OF ANY VEHICLE WITH THEIR SLEEK FINISH AND ENHANCED PERFORMANCE, SETTING
     THE STAGE FOR AN UNFORGETTABLE DRIVING EXPERIENCE.'
   textBox: {fileID: 1456590758}
-  PartARscene: {fileID: 2124002396}
+  PartARscene: {fileID: 1950081313}
   wlcanvas: {fileID: 38433954}
   blureffect: {fileID: 1393421493}
 --- !u!114 &1765969070
@@ -60761,7 +60468,7 @@ MonoBehaviour:
     THEY ELEVATE THE DRIVING EXPERIENCE WITH THEIR DISTINCTIVE DESIGN AND ENGINEERING
     EXCELLENCE, SETTING THE STANDARD FOR SOPHISTICATION ON THE ROAD'
   textBox: {fileID: 1657268359}
-  PartARscene: {fileID: 1349969066}
+  PartARscene: {fileID: 247139813}
   wlcanvas: {fileID: 38433954}
   blureffect: {fileID: 1480055657}
 --- !u!114 &2092615038
@@ -62236,8 +61943,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -725.8216, y: -12.644}
-  m_SizeDelta: {x: 521.968, y: 400.43}
+  m_AnchoredPosition: {x: -713, y: -12.645}
+  m_SizeDelta: {x: 530.8276, y: 400.43}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2125774613
 MonoBehaviour:
@@ -62255,7 +61962,7 @@ MonoBehaviour:
     OF AGGRESSION AND SOPHISTICATION, ENHANCING THE LOOK AND PERFORMANCE OF ANY VEHICLE
     WITH THEIR SLEEK DESIGN AND UNMATCHED ATTITUDE.'
   textBox: {fileID: 1290229103}
-  PartARscene: {fileID: 1910213383}
+  PartARscene: {fileID: 50573676}
   wlcanvas: {fileID: 38433954}
   blureffect: {fileID: 1562741396}
 --- !u!114 &2125774614
