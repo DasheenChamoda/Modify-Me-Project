@@ -2,9 +2,11 @@
 
 name: UnityTesting
 
-on:
-  push:
-  pull_request:
+on: 
+  workflow_dispatch: 
+#on:
+  #push:
+  #pull_request:
 
 jobs:
   unity_test_runner_1:
