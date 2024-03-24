@@ -2,50 +2,79 @@
 
 name: UnityTesting
 
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
 
+jobs:
+  unity_test_runner_1:
+    name: Run Unity Tests 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-- uses: game-ci/unity-test-runner@v4
-  env:
-    UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-  with:
-    projectPath: Rebuild-New\Rebuild
-    githubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run Unity tests with license
+        uses: game-ci/unity-test-runner@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+        with:
+          projectPath: Rebuild-New/Rebuild
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
 
-- uses: game-ci/unity-test-runner@v4
-  with:
-    packageMode: true
+  unity_test_runner_2:
+    name: Run Unity Tests 2 (Package Mode)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-- uses: game-ci/unity-test-runner@v4
-  with:
-    githubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run Unity tests in package mode
+        uses: game-ci/unity-test-runner@v4
+        with:
+          packageMode: true
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
 
-- uses: actions/upload-artifact@v3
-  if: always()
-  with:
-    name: Test results
-    path: artifacts
+  unity_test_runner_3:
+    name: Run Unity Tests 3 (No License)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-- uses: game-ci/unity-test-runner@v4
-  id: myTestStep
+      - name: Run Unity tests without license
+        uses: game-ci/unity-test-runner@v4
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
 
-- uses: actions/upload-artifact@v3
-  if: always()
-  with:
-    name: Test results
-    path: ${{ steps.myTestStep.outputs.artifactsPath }}
+  upload_test_results:
+    name: Upload Test Results
+    runs-on: ubuntu-latest
+    needs: [unity_test_runner_1, unity_test_runner_2, unity_test_runner_3]
+    steps:
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: Test results
+          path: artifacts
 
-- uses: actions/upload-artifact@v3
-  if: always()
-  with:
-    name: Coverage results
-    path: ${{ steps.myTestStep.outputs.coveragePath }}
+      - name: Upload coverage results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: Coverage results
+          path: ${{ github.workspace }}/coverage
 
-- uses: actions/cache@v3
-  with:
-    path: path/to/your/project/Library
-    key: Library-MyProjectName-TargetPlatform
-    restore-keys: |
-      Library-MyProjectName-
-      Library-    
-  
+  cache_unity_dependencies:
+    name: Cache Unity Dependencies
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cache Unity dependencies
+        uses: actions/cache@v2
+        with:
+          path: path/to/your/project/Library
+          key: Library-MyProjectName-TargetPlatform
+          restore-keys: |
+            Library-MyProjectName-
+            Library-
