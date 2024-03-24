@@ -7,19 +7,19 @@ const title = "We're Always Eager To Hear From You!";
 const conSubTitle = "Get in touch with Contact us";
 const conTitle =
   "Fill The Form Below So We Can Get To Know You And Your Needs Better.";
-const btnText = "Send our Message";
+const btnText = "Send Message";
 
 const contactList = [
   {
-    imgUrl: "/src/assets/images/icon/01.png",
+    imgUrl: "/src/assets/images/icon/05.png",
     imgAlt: "contact icon",
     title: "Office Address",
     desc: "Bambalapitiya, Colombo, Sri Lanka",
   },
   {
-    imgUrl: "/src/assets/images/icon/02.png",
+    imgUrl: "/src/assets/images/icon/06.png",
     imgAlt: "contact icon",
-    title: "Phone number",
+    title: "Mobile number",
     desc: "+9471 600 5000",
   },
   {
