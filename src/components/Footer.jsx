@@ -63,7 +63,7 @@ const ItemList = [
     },
     {
         text: 'Contact Us',
-        link: '/contactus',
+        link: '/contact',
     },
     {
         text: 'Cart',
